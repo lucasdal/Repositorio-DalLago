@@ -1,0 +1,119 @@
+h1 {
+  font-family: 'Cinzel', serif;
+  text-align: center; }
+
+h2 {
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 1;
+  text-decoration: none; }
+
+h3 {
+  font-family: 'Cinzel', serif; }
+
+#enlaceSeleccionado {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline; }
+
+body {
+  background-color: #e6e6e6; }
+
+ul {
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  text-align: center; }
+  ul li {
+    display: inline;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin: 20px;
+    font-size: 25px; }
+    ul li a {
+      text-decoration: none;
+      color: black; }
+
+img {
+  width: 80%;
+  height: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+footer {
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Cinzel', serif;
+  margin: auto;
+  padding: auto;
+  background-color: black;
+  color: white; }
+
+.form {
+  font-family: 'Cinzel', serif;
+  text-align: center; }
+
+.pnos {
+  text-align: justify; }
+
+.contenedor {
+  /* Flexbox en proyectos */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.contenedor img {
+  /* Flebox imagenes */
+  width: 20%;
+  height: 200px;
+  margin: 10px;
+  transition: height 2s;
+  cursor: pointer; }
+
+.contenedor img:hover {
+  /* hover en imagenes proyectos */
+  transform: scale(1.1); }
+
+.pp {
+  text-align: center;
+  font-size: 25px; }
+
+.aa {
+  text-decoration: none;
+  color: burlywood;
+  font-weight: bold;
+  text-decoration: underline; }
+
+.footer__text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  width: 20%;
+  margin: 10px;
+  margin-top: 15px;
+  display: block; }
+
+.rs--img {
+  width: 2rem;
+  height: 2rem; }
+
+.aaa {
+  text-decoration: none;
+  color: white; }
+
+.h3center {
+  text-align: center; }
+
+.form-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0vh; }
